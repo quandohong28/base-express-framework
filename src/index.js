@@ -4,6 +4,7 @@ const morgan = require('morgan');
 const handlebars = require('express-handlebars');
 const path = require('path');
 const route = require('./routes');
+const db = require('./config/database');
 
 // Serve static files
 app.use(express.static(path.join(__dirname, 'public')));
@@ -20,6 +21,9 @@ app.set('views', path.join(__dirname, 'resources/views'));
 
 // Routes init
 route(app);
+
+// Connect to database
+db.connect();
 
 // App listening
 const port = 8000;

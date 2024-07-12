@@ -16,11 +16,15 @@
 
 - Morgan (HTTP logger)  
 
+- Node-sass
+
 - Express Handlebar (template engine)
 
-- Tailwindcss (CSS)
+- Tailwindcss (CDN)
 
-- Vite
+- Fontawesome (CDN)
+
+- Mongoose
 
 ### How to run
 
@@ -33,5 +37,5 @@
 
     npm i
 
-    2.
+    2. 
 ```
