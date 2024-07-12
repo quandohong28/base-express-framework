@@ -33,9 +33,13 @@
 
     git clone http://github.com/quandohong28/base-express-js.git
 
-    1. Install package
+    2. Install package
 
     npm i
 
-    2. 
+    3. Run server
+
+    npm run watch
+
+    npm run dev
 ```
