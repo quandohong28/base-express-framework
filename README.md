@@ -1,4 +1,4 @@
-### BASE Express Framework with fully necessary libraries
+### BASE Express Framework with MVC model & MongoDB
 
 ### Requirement
 
