@@ -40,6 +40,12 @@ Base này bao gồm các thư viện như Nodemon, Morgan, Express Handlebar, Ta
 
 - vite | v7.0.5
 
+- tailwindcss | v3
+
+- postcss | v8.5.6
+
+- autoprefixer | v10.4.21
+
 ### Yêu cầu hệ thống
 
 - [Node JS phiên bản 20 hoặc cao hơn](https://nodejs.org)
