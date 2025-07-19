@@ -20,6 +20,8 @@ Base này bao gồm các thư viện như Nodemon, Morgan, Express Handlebar, Ta
 
 - Sử dụng **Mongoose** để kết nối với MongoDB
 
+- Sử dụng **dotenv** để quản lý biến môi trường
+
 ### Yêu cầu hệ thống
 
 - [Node JS phiên bản 20 hoặc cao hơn](https://nodejs.org)
@@ -71,9 +73,8 @@ cp .env.example .env
 - Chỉnh sửa file `.env` để cấu hình kết nối với MongoDB và các biến môi trường khác:
 
 ```env
-MONGODB_URI=mongodb://localhost:27017/your_database_name
-PORT=3000
-NODE_ENV=development
+DB_NAME=
+PORT=
 ```
 
 - Chạy ứng dụng:
