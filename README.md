@@ -24,7 +24,21 @@ Base này bao gồm các thư viện như Nodemon, Morgan, Express Handlebar, Ta
 
 ### Phiên bản
 
-- ExpressJS: 4.18.2
+- dotenv | v17.2.0
+
+- express | v4.19.2
+
+- express-handlebars | v7.1.3
+
+- flowbite | v3.1.2
+
+- mongoose | v8.5.0
+
+- morgan | v1.10.0
+
+- nodemon | v3.1.4
+
+- vite | v7.0.5
 
 ### Yêu cầu hệ thống
 
