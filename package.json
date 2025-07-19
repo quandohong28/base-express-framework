@@ -4,14 +4,13 @@
 	"description": "base express js framework with fully necessary libraries",
 	"main": "./src/index.js",
 	"scripts": {
-		"build": "vite build",
+		"build": "vite build --watch",
 		"serve": "nodemon ./src/index.js"
 	},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
-		"@tailwindcss/vite": "^4.1.11",
 		"dotenv": "^17.2.0",
 		"express": "^4.19.2",
 		"express-handlebars": "^7.1.3",

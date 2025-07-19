@@ -22,6 +22,10 @@ Base này bao gồm các thư viện như Nodemon, Morgan, Express Handlebar, Ta
 
 - Sử dụng **dotenv** để quản lý biến môi trường
 
+### Phiên bản
+
+- ExpressJS: 4.18.2
+
 ### Yêu cầu hệ thống
 
 - [Node JS phiên bản 20 hoặc cao hơn](https://nodejs.org)
@@ -42,6 +46,15 @@ git clone https://github.com/hatbi-online/base-express-framework.git
 
 ```bash
 cd base-express-framework
+```
+
+- Khởi tạo lại git repository:
+
+```bash
+rm -rf .git
+git init
+git add .
+git commit -m "Initial commit"
 ```
 
 - Cài đặt các phụ thuộc:
