@@ -3,9 +3,9 @@ const mongoose = require('mongoose')
 async function connect() {
     try {
         await mongoose.connect('mongodb://localhost:27017/express')
-        console.log("Connect to MongoDB successfully!");
+        console.log("Kết nối đến MongoDB thành công!");
     } catch (error) {
-        console.log("Connect to MongoDB failure!" );
+        console.log("Kết nối đến cơ sở dữ liệu thất bại!\n" + error);
     }
 }
 

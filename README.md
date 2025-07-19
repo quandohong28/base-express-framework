@@ -1,48 +1,87 @@
-### BASE Express Framework with MVC model & MongoDB
+## BASE Express Framework xây dựng bởi Hạt Bí
 
+### Mô tả
 
+Base Express Framework là một base được xây dựng bởi Hạt Bí, giúp bạn có thể dễ dàng khởi tạo một dự án ExpressJS với các thư viện phổ biến nhất hiện nay.
 
-### Requirement
+Base này bao gồm các thư viện như Nodemon, Morgan, Express Handlebar, Tailwindcss và Mongoose. Nó được thiết kế để giúp bạn tiết kiệm thời gian và công sức trong việc cấu hình ban đầu cho dự án ExpressJS của mình.
 
-- [Node JS](https://nodejs.org)
+### Thư viện và tính năng
 
-- [Express JS](https://www.npmjs.com/package/express)
+- Cấu hình sẵn **ExpressJS** với các thư viện phổ biến
 
-### Element
+- Sử dụng **Nodemon** để tự động cập nhật khi có thay đổi trong mã nguồn
 
-- ExpressJS
+- Sử dụng **Morgan** để ghi lại các yêu cầu HTTP
 
-### Libraries
+- Sử dụng **Express Handlebar** làm template engine
 
-- Nodemon (Hot update)
+- Sử dụng **Tailwindcss** để tạo giao diện đẹp mắt
 
-- Morgan (HTTP logger)  
+- Sử dụng **Mongoose** để kết nối với MongoDB
 
-- Node-sass
+### Yêu cầu hệ thống
 
-- Express Handlebar (template engine)
+- [Node JS phiên bản 20 hoặc cao hơn](https://nodejs.org)
 
-- Tailwindcss (CDN)
+- [NPM](https://www.npmjs.com) (được cài đặt cùng với Node JS)
 
-- Fontawesome (CDN)
+- [MongoDB](https://www.mongodb.com) (nếu bạn muốn sử dụng Mongoose)
 
-- Mongoose
+### Hướng dẫn cài đặt
 
-### How to run
+- Clone repository này về máy tính của bạn:
 
+```bash
+git clone https://github.com/hatbi-online/base-express-framework.git
 ```
-    1. Clone and reinit this repository
 
-    git clone http://github.com/quandohong28/base-express-js.git
-    git init
+- Di chuyển vào thư mục dự án:
 
-    2. Install package
-
-    cd base-express-js
-    npm i
-
-    3. Run server
-
-    npm run watch
-    npm run dev
+```bash
+cd base-express-framework
 ```
+
+- Cài đặt các phụ thuộc:
+
+```bash
+npm install
+
+# Hoặc sử dụng Yarn
+
+yarn install
+```
+
+- Build Tailwind CSS:
+
+```bash
+npm run build
+
+# Hoặc sử dụng Yarn
+
+yarn build
+```
+
+- Tạo file `.env` từ file mẫu `.env.example`:
+
+```bash
+cp .env.example .env
+```
+
+- Chỉnh sửa file `.env` để cấu hình kết nối với MongoDB và các biến môi trường khác:
+
+```env
+MONGODB_URI=mongodb://localhost:27017/your_database_name
+PORT=3000
+NODE_ENV=development
+```
+
+- Chạy ứng dụng:
+
+```bash
+npm serve
+
+# Hoặc sử dụng Yarn
+yarn serve
+```
+
